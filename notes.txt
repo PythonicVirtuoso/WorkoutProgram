@@ -1,0 +1,4 @@
+-Instead of 10 different input fields, it will have only one input
+field, and the area it will be added to will be determined by a
+button in that area that you press on before you write the text
+content in it.

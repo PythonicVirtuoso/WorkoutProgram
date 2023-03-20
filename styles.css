@@ -1,0 +1,13 @@
+h1 {
+  text-align: center;
+  padding: 200px;
+}
+ul {
+  text-align: center;
+}
+li {
+  list-style-type: none;
+  padding-inline: 150px;
+  display: inline-block;
+  font-size: 50px;
+}
