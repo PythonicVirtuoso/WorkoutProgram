@@ -23,7 +23,7 @@ dayOneWorkout.forEach((form) =>
     } else if (e.target.classList.contains("thirdForm")) {
       updateUI(textField, 2);
     } else if (e.target.classList.contains("fourthForm")) {
-      updateUI(textField, 3); //yoyoyoyo
+      updateUI(textField, 3);
     } else if (e.target.classList.contains("fifthForm")) {
       updateUI(textField, 4);
     } else if (e.target.classList.contains("sixthForm")) {
