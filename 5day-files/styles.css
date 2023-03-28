@@ -1,7 +1,6 @@
 .grid-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  max-width: 1500px;
 }
 header {
   grid-column: span 5;
@@ -12,7 +11,7 @@ header {
   text-align: center;
   border-right: 1px solid #ddd;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 h2 {
   grid-column: span 2;
@@ -24,11 +23,22 @@ h2 {
 form {
   padding: 15px;
 }
-input {
-  max-width: 158.4;
-}
 li {
   list-style-type: none;
   margin-right: 50px;
   padding-bottom: 15px;
+}
+.inputField {
+  grid-column: span 5;
+  margin: 200px auto;
+}
+label {
+  padding: 130px;
+}
+.input {
+  width: 350px;
+}
+.mainDiv {
+  padding: 10px;
+  text-decoration: underline;
 }
