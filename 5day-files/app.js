@@ -1,6 +1,3 @@
-// Try to work from an empty slate at first, if you need it, look
-// at github for inspiration.
-
 const buttons = document.querySelectorAll("button");
 const form = document.querySelector("form");
 const first = document.querySelector(".first");
