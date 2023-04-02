@@ -42,3 +42,6 @@ label {
   padding: 10px;
   text-decoration: underline;
 }
+.btn {
+  background-color: blue;
+}

@@ -1,3 +1,4 @@
+// querying the elements and classes I need in HTML
 const buttons = document.querySelectorAll("button");
 const form = document.querySelector("form");
 const first = document.querySelector(".first");
@@ -11,13 +12,24 @@ const eight = document.querySelector(".eight");
 const ninth = document.querySelector(".ninth");
 const tenth = document.querySelector(".tenth");
 
+// add an event listener for every click I make in the browser
 buttons.forEach((button) =>
   button.addEventListener("click", (e) => {
     whichButton = e.target.classList;
     addForm(whichButton);
+    toggleButtons(e);
   })
 );
 
+// change the color of the buttons, according to which one you last
+// pressed on
+const toggleButtons = (e) => {
+  buttons.forEach((button) => button.classList.remove("btn"));
+  e.target.classList.add("btn");
+};
+
+// add eventlistener to the form which puts the text you write into
+// it into the UL field under the button you pressed.
 const addForm = (whichButton) => {
   form.addEventListener(
     "submit",
@@ -25,7 +37,7 @@ const addForm = (whichButton) => {
       e.preventDefault();
       textField = form.textField.value;
       form.reset();
-      if (whichButton.contains("firstButton")) {
+      if (whichButton.contains("firstButton") && textField.length) {
         first.innerHTML += `
       <li>${textField}</li>
       `;

@@ -1,0 +1,26 @@
+-Figure out why in the fuck there's a gap widening for every time
+I press the buttons, even if I don't write anything.
+
+Solution: every time I clicked on something it was added to the UL
+element even if I didnt submit anything. Solution, add a length
+property to the textField value that has to be truthy.
+
+------------------------------
+
+-Figure out why when I press on another button, the class is added
+to it but when I submit text, it's still added to the UL beneath the
+first button I pressed.
+
+Answer: because while the addEventListener resets when I submit the
+form, it doesnt reset if I don't submit the form.
+
+Possible solution; add an if check before the forms eventlistener
+which checks if the form has actually been submitted or not, and if
+it hasnt, then just don't do anything.
+
+Question now is how to do that, I've tried adding a function that
+can only be accessed when the form is submitted.
+
+Seems like I've executed it..The submit listener only comes up after
+I submit something, but the text is still added into the UL under
+the button I clicked.
