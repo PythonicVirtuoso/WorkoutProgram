@@ -1,3 +1,2 @@
--Dont make it possible to make two buttons have the same class at the
-same time.
--Make it so text is added to the last button that was pressed.
+-When I add text in the ul fields, the other fields change position
+for some reason, and I want them not to do that.
