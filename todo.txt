@@ -1,0 +1,26 @@
+-Finish this video: https://www.youtube.com/watch?v=Ofux_4c94FI
+-Test and refine my code until it works, I guess?
+-Figure out how to format the array of messages. Look into this:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/ListFormat#instance_properties
+Maybe watch or read about array methods as well.
+Maybe create a loop where each element in the array is formatted individually.
+Look at this as well: https://www.w3schools.com/jsref/jsref_map.asp
+-Find an array method or something that will add just the last thing
+added to the array rather than the entire array with the real time
+updates.
+
+First: Figure out how to format it properly.
+Second: Make it add only one at a time.
+Solution, look through the chatroom project again until I understand
+better how to render stuff in a database to the UI.
+Got it, need to just format it properly now, will use CSS for that mainly.
+Also need to use a created at property to sort the documents with so
+they're rendered in the correct order.
+Also need to do so I can add to the UI based on the index property of
+the document. That means I have to set the index property equal to a
+variable that is equal to the index of each individual index property.
+Maybe try to use e.target to get the id attribute of the button that
+is pressed on.
+
+Do next: Restructure it somehow. Write it in the architecture file.
+https://www.youtube.com/watch?v=FOD408a0EzU

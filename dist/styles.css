@@ -1,0 +1,50 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: start;
+}
+header {
+  grid-column: span 5;
+  text-align: center;
+  background-color: #ddd;
+}
+.day {
+  text-align: center;
+  border-right: 1px solid #ddd;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+}
+h2 {
+  grid-column: span 2;
+}
+.workout {
+  grid-column: span 1;
+  border-right: 1px solid #ddd;
+}
+form {
+  padding: 15px;
+}
+li {
+  list-style-type: none;
+  margin-right: 50px;
+  padding-bottom: 15px;
+}
+.inputField {
+  grid-column: span 5;
+  margin: auto;
+  margin-top: 150px;
+}
+label {
+  padding: 130px;
+}
+.input {
+  width: 350px;
+}
+.mainDiv {
+  padding: 10px;
+  text-decoration: underline;
+}
+.btn {
+  background-color: blue;
+}
